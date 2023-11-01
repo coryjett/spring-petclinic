@@ -35,8 +35,3 @@ public class PetClinicApplication {
 	}
 
 }
-
-@Bean
-public InMemoryHttpExchangeRepository createTraceRepository() {
-  return new InMemoryHttpExchangeRepository();
-}
