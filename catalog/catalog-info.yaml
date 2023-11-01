@@ -4,7 +4,6 @@ metadata:
   name: spring-petclinic
   description: Spring Petclinic
   tags:
-    - app-accelerator
     - java
     - spring
     - web
