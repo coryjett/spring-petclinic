@@ -26,5 +26,9 @@ class WelcomeController {
 	public String welcome() {
 		return "welcome";
 	}
+	@Bean
+	public InMemoryHttpExchangeRepository createTraceRepository() {
+	  return new InMemoryHttpExchangeRepository();
+	}
 
 }
