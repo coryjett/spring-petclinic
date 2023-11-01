@@ -2,6 +2,10 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: spring-petclinic
+  links:
+    - url: https://petclinic-apps.tapv-welcome-herring.tapsandbox.com/
+      title: Spring Petclinic
+      icon: dashboard
   description: Spring Petclinic
   tags:
     - java
