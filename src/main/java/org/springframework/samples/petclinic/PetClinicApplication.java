@@ -34,4 +34,9 @@ public class PetClinicApplication {
 		SpringApplication.run(PetClinicApplication.class, args);
 	}
 
+	@Bean
+	public InMemoryHttpExchangeRepository createTraceRepository() {
+	  return new InMemoryHttpExchangeRepository();
+	}
+
 }
