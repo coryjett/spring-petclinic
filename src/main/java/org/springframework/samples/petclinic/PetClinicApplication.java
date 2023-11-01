@@ -35,3 +35,8 @@ public class PetClinicApplication {
 	}
 
 }
+
+@Bean
+public HttpTraceRepository htttpTraceRepository() {
+	return new InMemoryHttpTraceRepository();
+};
